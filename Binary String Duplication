@@ -2,7 +2,8 @@
 
 Consider a binary string, s, with an initial value of "0". We expand s by performing the following steps:
 
-Create a string, t, where each character ti is equal to 1 - si. For example, if s = "01", then t = "10". Note that s and t always have the same length because t is the complement of s.
+Create a string, t, where each character ti is equal to 1 - si. For example, if s = "01", then t = "10". 
+Note that s and t always have the same length because t is the complement of s.
 Append t to the end of s so that s(new) = s + t. In the example above, "01" becomes "0110".
 We keep on expanding s using steps 1 and 2 infinitely. When we repeat the expansion operation, string s grows like this:
 image
@@ -10,7 +11,8 @@ Given queries in the form of a zero-based index, , solve each query by printing 
 
 Input Format
 
-The first line contains an integer denoting q (number of queries). Each of the q subsequent lines contains an integer describing the value of x for a query.
+The first line contains an integer denoting q (number of queries). 
+Each of the q subsequent lines contains an integer describing the value of x for a query.
 
 Constraints
 
@@ -31,7 +33,7 @@ Sample Output 0
 1
 0
 1
-****/
+***************************************************************************************************************************/
 
 #include <cmath>
 #include <cstdio>
